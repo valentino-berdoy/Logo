@@ -72,10 +72,28 @@ input {
 .post-title-container {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
+    padding: 0 0 20px 0;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title h3{
+    margin: 0;
+    padding-top: 20px;
+}
+
+
+.author{
+    color: #6DE4EA;
 }
 
 .desc-container{
-    padding: 0 40px;
+    padding: 0 20px;
     text-align: justify;
 }
 
@@ -83,17 +101,28 @@ input {
 .inf-container{
     display: flex;
     text-align: start;
+    align-items: flex-start;
+    padding-top: -50px;
+}
+.inf-container a{
+    padding: 0 5px 0 0;
 }
 .inf-container p{
-    display: flex;
-
+    align-items: flex-start;
 }
+
+
 
 .post-container {
     width: 400px;
     height: auto;
     border: 1px #000000 solid;
     border-radius: 5px;
+}
+
+.post-container p{
+    margin: 0;
+    padding: 0 20px 20px 20px;
 }
 
 .img-container {
