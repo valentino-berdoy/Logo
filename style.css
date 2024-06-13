@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -20,7 +22,7 @@ body {
     border-bottom: 1px solid #6DE4EA;
 }
 
-h1 {
+.navbar h2 {
     font-family: "Cinzel Decorative", serif;
     color: #18A0FB;
 }
@@ -57,11 +59,49 @@ input {
 
 /* --- Main --- */
 
-.main{
-    margin:0 40px;
+.main {
+    margin: 0 40px;
 }
-.title-container{
+
+.title-container {
     display: flex;
     justify-content: space-between;
     padding: 25px 0 0 0;
+}
+
+.post-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc-container{
+    padding: 0 40px;
+    text-justify: auto;
+}
+.desc-container p{
+text-align: justify;
+}
+
+.inf-container{
+    display: flex;
+    text-align: start;
+}
+
+.post-container {
+    width: 400px;
+    height: auto;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+}
+
+.img-container {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
 }
