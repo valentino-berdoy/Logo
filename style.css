@@ -67,6 +67,7 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 25px 0 0 0;
+    margin: 0 80px;
 }
 
 .post-title-container {
@@ -137,14 +138,19 @@ input {
 
 .order-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1px;
 
 }
 
-.category.container hr{
-    width: 90px;
+hr {
+    border-color: 30px aqua;
     color: #18A0FB;
+}
+
+.big-container{
+    width: 60%;
+    height: auto;
 }
 
 /* --- footer ---*/
