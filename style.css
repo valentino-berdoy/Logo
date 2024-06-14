@@ -71,6 +71,11 @@ input {
     padding: 25px 0 0 0;
 }
 
+.title-container p{
+    color: #18A0FB ;
+    font-weight: 600;
+}
+
 .post-title-container {
     display: flex;
     justify-content: space-between;
