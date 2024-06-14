@@ -12,7 +12,9 @@ body {
 
 
 /* ---- Header ---- */
-
+main{
+    margin: 0 40px;
+}
 .navbar {
     color: aquamarine;
     display: flex;
@@ -144,17 +146,16 @@ input {
     justify-content: space-between;
     gap: 40px;
     padding: 20px 0 0 0;
-    
 }
 .big-container{
     display: flex;
     border: 1px #000000 solid;
+    border-radius: 5px;
     width: 80%;
 }
-ç
 
-.big-post-container{
-    width: 60%;
+.big-post-container p{
+    padding: 0 20px 20px 20px;
 }
 
 
@@ -171,12 +172,32 @@ input {
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+.small-post-container{
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    height: 50%;
+}
+.small-post-container p{
+    padding: 0 20px 20px 20px;
+}
 
+.small-img-container{
+    height: 200px;
+}
+
+.small-img-container img{
+    width: 100%;
+    height: 100%;
 }
 hr{
-    border-color: #18A0FB;
+    border-color: #6DE4EA;
+    border-radius: 5px;
+    border-style: none;
     width: 60px;
+    height: 5px;
     margin-top: 60px;
+    background-color: #6DE4EA;
 }
 
 
@@ -187,7 +208,7 @@ footer{
     justify-content: space-between;
     background-color: #000000CC;
     padding: 40px;
-    margin-top: 60px  ;
+    margin: 60px 0 0 0 ;
 }
 
 footer h2{
