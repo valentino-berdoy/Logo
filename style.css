@@ -75,7 +75,6 @@ input {
     justify-content: space-between;
     align-items: baseline;
     padding: 0 0 20px 0;
-
 }
 
 .title{
@@ -138,20 +137,9 @@ input {
 
 .order-container{
     display: flex;
-    justify-content: space-evenly;
-    padding: 1px;
-
+    justify-content: space-around;
 }
 
-hr {
-    border-color: 30px aqua;
-    color: #18A0FB;
-}
-
-.big-container{
-    width: 60%;
-    height: auto;
-}
 
 /* --- footer ---*/
 
@@ -174,12 +162,3 @@ footer a{
 footer p{
     color: #ffffff55;
 }
-
-
-
-
-
-
-
-
-
