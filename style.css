@@ -67,6 +67,7 @@ input {
     display: flex;
     justify-content: space-between;
     padding: 25px 0 0 0;
+    margin: 0 80px;
 }
 
 .post-title-container {
@@ -74,7 +75,6 @@ input {
     justify-content: space-between;
     align-items: baseline;
     padding: 0 0 20px 0;
-
 }
 
 .title{
@@ -138,9 +138,8 @@ input {
 .order-container{
     display: flex;
     justify-content: space-around;
-    padding: 1px;
-
 }
+
 
 /* --- footer ---*/
 
@@ -163,12 +162,3 @@ footer a{
 footer p{
     color: #ffffff55;
 }
-
-
-
-
-
-
-
-
-
