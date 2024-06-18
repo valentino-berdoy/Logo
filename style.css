@@ -61,7 +61,129 @@ input {
 
 
 /* --- Main --- */
+.main {
+    margin: 0 40px;
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 0 0;
+}
 
+.title-container p{
+    color: #18A0FB ;
+    font-weight: 600;
+}
+
+.post-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 0 20px 0;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title h3{
+    margin: 0;
+    padding-top: 20px;
+}
+.author{
+    color: #6DE4EA;
+}
+.desc-container{
+    padding: 0 20px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.inf-container{
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    padding-top: -50px;
+}
+.inf-container a{
+    padding: 0 5px 0 0;
+}
+.inf-container p{
+    align-items: flex-start;
+}
+.post-container {
+   height: auto;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+}
+.post-container p{
+    margin: 0;
+    padding: 0 20px 20px 20px;
+}
+.img-container {
+    width: auto;
+    height: auto;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.order-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.order-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 0 0 0;
+}
+.big-container{
+    display: flex;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    width: 80%;
+}
+.big-post-container p{
+    padding: 0 20px 20px 20px;
+}
+.big-img-container{
+    height: 60%;
+}
+.big-img-container img{
+    height: 100%;
+    width: 100%;
+}
+.smalls-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.small-post-container{
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    height: 50%;
+}
+.small-post-container p{
+    padding: 0 20px 20px 20px;
+}
+.small-img-container{
+    height: 200px;
+}
+.small-img-container img{
+    width: 100%;
+    height: 100%;
+}
+hr{
+    border-color: #6DE4EA;
+    border-radius: 5px;
+    border-style: none;
+    width: 60px;
+    height: 5px;
+    margin-top: 60px;
+    background-color: #6DE4EA;
+}
 
 /* --- footer ---*/
 
